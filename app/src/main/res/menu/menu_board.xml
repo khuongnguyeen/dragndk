@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_disable_drag"
+        android:title="@string/action_disable_drag"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_enable_drag"
+        android:title="@string/action_enable_drag"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_grid"
+        android:title="@string/grid_layout"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_list"
+        android:title="@string/list_layout"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_add_column"
+        android:title="@string/add_column"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_remove_column"
+        android:title="@string/remove_column"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_clear_board"
+        android:title="@string/clear_board"
+        app:showAsAction="never"/>
+</menu>
